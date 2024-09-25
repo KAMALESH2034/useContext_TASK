@@ -1,8 +1,13 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# React useContext Cart Management App
 
-Currently, two official plugins are available:
+This React application demonstrates the use of the `useContext` hook combined with the `useReducer` hook to manage and manipulate cart data. The project fetches JSON data from a provided URL to create a dynamic cart page displaying each item's price, quantity, and total amount, with the ability to adjust quantities interactively.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+Use the given JSON data and create a cart page with per item price , per item quantity,
+
+* Total quantity and total amount
+
+##### Functionalities Required
+
+* It needs to increase or decrease the per unit quantity, which should automatically update the total Quantity and Amount.
